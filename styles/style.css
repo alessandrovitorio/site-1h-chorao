@@ -1,0 +1,26 @@
+/* Estilo para toda a barra de navegação */
+nav {
+    background-color: red;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white; /* Texto branco para contraste com fundo vermelho */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: darkred;
+    border-radius: 3px;
+}
